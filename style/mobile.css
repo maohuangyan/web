@@ -1,0 +1,43 @@
+@media screen and (max-width: 500px){
+  html{
+    font-size: 16px;
+  }
+  .navbar-collapse{
+    background: #64baf9;
+    padding: 1rem 0 2rem;
+  }
+  .navbar .navbar-nav .nav-item{
+    padding: 20px 0;
+  }
+  .navbar-light .navbar-toggler-icon{
+    z-index: 100;
+  }
+  .responsive-menu{
+    height: 0.1rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.2rem;
+    display: block;
+    z-index: 100;
+  }
+  .responsive-nav{
+    display: none;
+    position: relative;
+    width: 100%;
+    background: #f53540;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    left: 0;
+  }
+  .responsive-nav ul{
+    display: block;
+    margin-top: 2rem;
+  }
+  .responsive-nav li{
+    padding: 1rem 2rem;
+  }
+  .login-btn{
+    display: none;
+  }
+}
